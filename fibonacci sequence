@@ -1,0 +1,11 @@
+sum = 0
+numb1 = 0
+numb2 = 1
+
+numofsequence = int(input("Please enter the amount of fibonacci numbers: "))
+
+for x in range (0, numofsequence):
+  print(sum)
+  numb1 = numb2
+  numb2 = sum
+  sum = numb1 + numb2
